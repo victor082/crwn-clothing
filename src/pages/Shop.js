@@ -6,7 +6,7 @@ const ShopPage = ({ match }) => {
 
     return (
         <div className="shop-page">
-            <Route exact path={} component={CollectionOverview} />
+            <Route exact path={'/shop'} component={CollectionOverview} />
         </div>
     )
 }
