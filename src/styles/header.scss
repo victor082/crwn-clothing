@@ -21,6 +21,11 @@
     .option {
       padding: 10px 15px;
       cursor: pointer;
+      letter-spacing: 2px;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

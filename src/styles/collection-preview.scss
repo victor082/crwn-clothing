@@ -6,10 +6,35 @@
   .title {
     font-size: 28px;
     margin-bottom: 25px;
+    letter-spacing: 2px;
   }
 
   .preview {
     display: flex;
     justify-content: space-between;
+  }
+
+  .view-more-collection {
+    margin-top: 40px;
+
+    letter-spacing: 1px;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: #525252;
+    border: none;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    &:hover {
+      opacity: 0.9;
+      background-color: #747a7a;
+    }
   }
 }

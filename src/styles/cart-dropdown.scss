@@ -11,6 +11,19 @@
   right: 40px;
   z-index: 5;
 
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(131, 131, 131);
+    outline: 1px solid rgb(148, 148, 148);
+
+    &:hover {
+      background-color: rgb(97, 97, 97);
+    }
+  }
+
   .empty-message {
     font-size: 18px;
     margin: 50px auto;
@@ -25,5 +38,6 @@
 
   button {
     margin-top: auto;
+    transition: 0.8s;
   }
 }

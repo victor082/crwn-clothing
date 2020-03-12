@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/collection-page.scss'
+import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import CollectionItem from '../components/Collection-Item'
@@ -11,6 +12,9 @@ const CollectionPage = ({ collection }) => {
     return (
         <div className="collection-page">
             <h2 className="title" >{title}</h2>
+            <Link to={`/shop/`}>
+                <button className="back-button">Back</button>
+            </Link>
             <div className="items">
                 {
                     items.map(item => <CollectionItem key={item.id} item={item} />)
