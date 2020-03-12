@@ -13,11 +13,9 @@ const CollectionPreview = ({ title, items }) => (
                     <CollectionItem key={item.id} item={item} />
                 ))
             }
-
         </div>
     </div>
 )
-
 
 
 export default CollectionPreview;
